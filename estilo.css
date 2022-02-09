@@ -1,0 +1,86 @@
+.hanalei {
+    font-family: 'Hanalei', cursive;
+    text-align: center;
+}
+
+table.uno {
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+caption {
+    background-color: rgb(255, 230, 0);
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+}
+
+caption.bajo {
+    background-color: rgb(255, 230, 0);
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+    caption-side: bottom;
+}
+
+td {
+    text-align: center;
+}
+
+hr.uno {
+    height: 30px;
+    border: 2px solid black;
+}
+
+table.dos {
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+th.bajo {
+    border-bottom: 5px red dotted;
+}
+
+td.izquierda {
+    text-align: center;
+    border-left: 5px red dotted;
+}
+
+td.derecha {
+    text-align: center;
+    border-right: 5px red dotted;
+}
+
+td.izquierdabajo {
+    text-align: center;
+    border-left: 5px red dotted;
+    border-bottom: 5px red dotted;
+}
+
+td.derechabajo {
+    text-align: center;
+    border-right: 5px red dotted;
+    border-bottom: 5px red dotted;
+}
+
+hr.medio {
+    width: 50%;
+    text-align: center;
+}
+
+p.bajo {
+    margin-top: 0px;
+    height: 20px;
+    border: 4px solid red;
+    text-align: center;
+    color: blue;
+    background-color: rgb(255, 230, 0);
+    padding: 20px;
+    font-weight: bold;
+}
